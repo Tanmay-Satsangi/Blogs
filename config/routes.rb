@@ -11,4 +11,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  post "/users", to: "users#create"  # To create new user i.e. sign-up
+  post "/auth/login", to: "auth#login" # To login
+  get "/me", to: "users#me"  # To access the user data
+
 end
+
