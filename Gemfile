@@ -62,6 +62,6 @@ gem 'jwt', '~> 2.5'
 
 gem 'rack-cors'
 
-gem 'active_model_serializers', '~> 0.10.12'
+gem 'active_model_serializers', '~> 0.10.15'
 
 gem 'pry'
